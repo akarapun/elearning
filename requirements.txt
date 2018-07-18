@@ -1,0 +1,54 @@
+#
+####### example-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+# nose
+# nose-cov
+# beautifulsoup4
+#
+###### Requirements with Version Specifiers ######
+#   See https://www.python.org/dev/peps/pep-0440/#version-specifiers
+# docopt == 0.6.1             # Version Matching. Must be version 0.6.1
+# keyring >= 4.1.1            # Minimum version 4.1.1
+# coverage != 3.5             # Version Exclusion. Anything except version 3.5
+# Mopidy-Dirble ~= 1.1        # Compatible release. Same as >= 1.1, == 1.*
+
+click == 6.7
+cymysql == 0.9.4
+Flask == 0.12.2
+Flask-GraphQL == 1.4.1
+graphene == 2.0.1
+graphene-sqlalchemy == 2.0.0
+graphql-core == 2.0
+graphql-relay == 0.4.5
+iso8601 == 0.1.12
+itsdangerous == 0.24
+Jinja2 == 2.10
+MarkupSafe == 1.0
+pip == 9.0.1
+promise == 2.1
+Rx == 1.6.0
+setuptools == 38.4.0
+singledispatch == 3.4.0.3
+six == 1.11.0
+SQLAlchemy == 1.2.2
+typing == 3.6.4
+Werkzeug == 0.14.1
+wheel == 0.30.0
+PyJWT == 1.6.0
+gunicorn == 19.7.1
+
+#
+###### Refer to other requirements files ######
+# -r other-requirements.txt
+#
+#
+###### A particular file ######
+# ./downloads/numpy-1.9.2-cp34-none-win32.whl
+# http://wxpython.org/Phoenix/snapshot-builds/wxPython_Phoenix-3.0.3.dev1820+49a8884-cp34-none-win_amd64.whl
+#
+###### Additional Requirements without Version Specifiers ######
+#   Same as 1st section, just here to show that you can put things in any order.
+# rejected
+# green
+#
